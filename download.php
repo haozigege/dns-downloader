@@ -10,7 +10,7 @@ $copyright='<!--
 -->';
 
 $module_dir='/tmp/dns/module-upload/';
-$allow_files=['/tmp/dns/dns.py','/tmp/dns/config.py','/tmp/dns/dns.doc'];
+$allow_files=['/tmp/dns/dns.py','/tmp/dns/config.py','/tmp/dns/dns.doc','/tmp/dns/white_list'];
 $files=scandir('/tmp/dns/module-upload/');
 
 foreach ($files as $key => $value) {
